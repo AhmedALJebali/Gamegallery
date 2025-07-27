@@ -45,7 +45,7 @@ const AutoSizedImageGrid = () => {
   }, []);
 
   return (
-    <section className="w-full max-w-screen-xl mx-auto px-4 flex flex-col items-center">
+    <section className="w-full  mx-auto md:px-4 flex flex-col items-center">
       <div className="w-full max-w-4xl text-center mb-10">
         <h2 className="text-3xl font-semibold text-white">
           Our Recent Projects
@@ -76,7 +76,7 @@ const AutoSizedImageGrid = () => {
                 )}
               </div>
 
-              <div className="block md:hidden relative w-[120px] aspect-square rounded-md overflow-hidden">
+              <div className="scale-[1.1] block md:hidden relative w-[140px] aspect-4/3 rounded-md overflow-hidden">
                 {size ? (
                   <Image
                     src={project.photo}

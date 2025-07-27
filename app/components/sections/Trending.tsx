@@ -16,7 +16,7 @@ const Teranding = () => {
   ];
 
   return (
-    <section className="w-full px-4 md:px-10 xl:px-20 mt-44 mb-20">
+    <section className="w-full px-4 md:px-10 xl:px-20 mt-10 md:mt-34 mb-20">
       <div className="flex flex-col sm:flex-row w-full justify-between items-center text-white gap-4">
         <h1 className="text-2xl sm:text-3xl font-bold text-center sm:text-left">
           Currently Trending Games

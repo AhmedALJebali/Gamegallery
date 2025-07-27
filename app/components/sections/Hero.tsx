@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className="w-[90%] sm:w-[80%] mx-auto mt-10 text-white">
-      <div className="flex flex-col sm:w-[40%] w-full items-start z-2 relative">
+      <div className="flex flex-col sm:w-[40%] w-full items-start z-2 relative ">
         <span className="text-amber-600 font-black text-lg sm:text-xl">
           3D game Dev
         </span>
