@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-start: #39289f;
-  --color-end: #422f9c;
+  --color-start: #3C2A9E;
+  --color-end: #3B2A9F;
 }
 
 @media (prefers-color-scheme: dark) {

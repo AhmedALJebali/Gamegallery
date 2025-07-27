@@ -10,8 +10,8 @@ export default function Home() {
       <Hero />
       <Trending />
       <GameOfTheweek />
-      <Services/>
-      <Projects/>
+      <Services />
+      <Projects />
     </main>
   );
 }
