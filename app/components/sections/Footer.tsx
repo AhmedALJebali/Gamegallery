@@ -45,7 +45,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Line */}
-      <div className="border-t border-white/20 mt-8 pt-6 text-center text-sm text-white/60">
+      <div className="border-t border-white/20 mt-8 py-6 text-center text-sm text-white/60">
         Copyright © 2021 Lorem All rights reserved
       </div>
     </footer>

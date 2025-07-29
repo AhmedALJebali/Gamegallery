@@ -1,9 +1,17 @@
-import React from 'react'
+import Hero from "./_components/_sections/Hero";
+import Team from "./_components/_sections/Team";
+import Testimonials from "./_components/_sections/Testimonials";
+import AboutSection from "./_components/_sections/About";
 
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div>
+      <Hero />
+      <Testimonials />
+      <AboutSection />
+      <Team />
+    </div>
+  );
+};
 
-export default page
+export default page;
