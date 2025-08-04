@@ -6,7 +6,8 @@ const SubscribeSection = () => {
         <div>
           <h2 className="text-2xl sm:text-4xl font-bold mb-2">Lorem Ipsum</h2>
           <p className="text-sm sm:text-base text-gray-300">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
           </p>
         </div>
 
@@ -14,7 +15,9 @@ const SubscribeSection = () => {
         <div className="bg-white/30 rounded-xl p-5 sm:p-6 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-5 sm:gap-6">
           {/* Left Text */}
           <div className="w-full lg:w-1/2">
-            <h3 className="text-lg sm:text-xl font-semibold mb-1">Stay in the loop</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-1">
+              Stay in the loop
+            </h3>
             <p className="text-sm text-gray-300">
               Subscribe to receive the latest news and updates about TDA.
               <br className="hidden sm:block" /> We promise not to spam you!
@@ -22,15 +25,15 @@ const SubscribeSection = () => {
           </div>
 
           {/* Input + Button */}
-          <form className="flex w-full max-w-md">
+          <form className="flex flex-col sm:flex-row w-full gap-0">
             <input
               type="email"
               placeholder="Enter email address"
-              className="flex-1 py-2 px-4 rounded-l-md outline-none text-black bg-white text-sm"
+              className="flex-1 py-2 px-3 sm:px-4 rounded-t-md sm:rounded-l-md sm:rounded-r-none outline-none text-black bg-white text-sm"
             />
             <button
               type="submit"
-              className="bg-amber-500 hover:bg-amber-600 text-white font-medium px-5 py-2 rounded-r-md text-sm"
+              className="bg-amber-500 hover:bg-amber-600 text-white font-medium px-4 py-2 rounded-b-md sm:rounded-r-md sm:rounded-l-none text-sm"
             >
               Continue
             </button>
