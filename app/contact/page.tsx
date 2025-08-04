@@ -1,8 +1,10 @@
-
+import ContactForm from "./ContactForm";
+import Map from "./Map";
 const page = () => {
   return (
     <div>
-page
+      <Map />
+      <ContactForm />
     </div>
   );
 };

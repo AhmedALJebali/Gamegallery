@@ -1,6 +1,6 @@
 const BreadCrump = ({ title }: { title: string }) => {
   return (
-    <div className="text-white flex gap-4 w-full items-center font-bold">
+    <div className="text-white flex gap-4 items-center font-bold">
       <span>Home</span>
       <svg
         className="rtl:rotate-180 w-3 h-3 "
