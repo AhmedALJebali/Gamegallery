@@ -1,8 +1,8 @@
-import GameOfTheweek from "./components/sections/GameOfTheweek";
-import Hero from "./components/sections/Hero";
-import Projects from "./components/sections/Projects";
-import Services from "./components/sections/Services";
-import Trending from "./components/sections/Trending";
+import GameOfTheweek from "./components/sections/gameOfTheWeek";
+import Hero from "./components/sections/heroSection";
+import Projects from "./components/sections/projects";
+import Services from "./components/sections/services";
+import Trending from "./components/sections/trending";
 
 export default function Home() {
   return (

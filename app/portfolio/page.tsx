@@ -1,14 +1,14 @@
-import GameSection from "./_components/sections/GameSection";
-import Stats from "./_components/sections/Stats";
-import Testimonials from "./_components/sections/Testimonials";
+import GameSection from "./_components/gameSection";
+import Stats from "./_components/statsSection";
+import Testimonials from "./_components/testimonialsSection";
 
 const page = () => {
   return (
-    <div>
+    <main>
       <Stats />
       <GameSection />
       <Testimonials />
-    </div>
+    </main>
   );
 };
 

@@ -62,7 +62,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <div className="bg-white/30 text-white py-16 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20">
+    <section className="bg-white/30 text-white py-16 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20">
       <div className="text-center mb-12 max-w-3xl mx-auto">
         <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl leading-snug">
           Trusted by Thousands of <br className="hidden sm:block" />
@@ -166,6 +166,6 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

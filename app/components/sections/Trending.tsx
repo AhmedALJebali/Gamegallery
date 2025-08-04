@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow"; // For animation effect
 import { Autoplay, EffectCoverflow } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import TrendingCard from "../cards/TrendingCard";
+import TrendingCard from "../cards/trendingCard";
 
 const Teranding = () => {
   const trendingGames: GameCardType[] = [

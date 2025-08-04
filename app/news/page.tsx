@@ -1,7 +1,7 @@
 import { PostDetails } from "@/Types/index";
-import DetailedPost from "./_cards/DetailedPost ";
-import PostCard from "./_cards/PostCard";
-import HeroSection from "./HeroSection";
+import DetailedPost from "./_components/detailedPost ";
+import PostCard from "./_components/postCard";
+import HeroSection from "./_components/newsHero";
 // Main Page Component
 const HomePage = () => {
   const posts: PostDetails[] = [
@@ -23,7 +23,7 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="w-[80%] mx-auto px-4 py-8">
+    <main className="w-[80%] mx-auto px-4 py-8">
       <HeroSection />
       <div className="flex flex-col lg:flex-row gap-8 items-start">
         {/* Left: Detailed Post */}
@@ -46,7 +46,7 @@ const HomePage = () => {
           ))}
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

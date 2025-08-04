@@ -1,7 +1,7 @@
 "use client";
 import { TeamMember } from "@/Types/index";
 
-import TeamCard from "../_cards/TeamCard";
+import TeamCard from "./teamCard";
 
 import "swiper/css";
 

@@ -1,13 +1,21 @@
 @import "tailwindcss";
-
+@custom-variant dark (&:where(.dark, .dark *));
 @theme {
-  --color-start: #3C2A9E;
-  --color-end: #3B2A9F;
+  --color-start: #3c2a9e;
+  --color-end: #3b2a9f;
 }
 
-@media (prefers-color-scheme: dark) {
+.dark {
+  --color-start: #000000;
+  --color-end: #291908;
+ 
 }
+
 body {
   min-height: 100vh;
   background: linear-gradient(to bottom, var(--color-start), var(--color-end));
+}
+.swiper-button-next,
+.swiper-button-prev {
+  @apply !hidden; 
 }

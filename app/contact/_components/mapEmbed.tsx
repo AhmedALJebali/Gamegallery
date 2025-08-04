@@ -18,7 +18,7 @@ const RedDotsMap = () => {
   ];
 
   return (
-    <div className="relative w-[95%] max-w-7xl mx-auto bg-cover bg-center">
+    <section className="relative w-[95%] max-w-7xl mx-auto bg-cover bg-center">
       <div className="relative w-full max-w-7xl mx-auto aspect-[2/1]">
         {/* Background Image */}
         <img
@@ -105,7 +105,7 @@ const RedDotsMap = () => {
           </span>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

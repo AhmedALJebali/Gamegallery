@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import DarkModeToggle from "../ui/darkModeToggle";
 
 const NAV_LINKS = [
   { link: "/", label: "Home" },
@@ -48,17 +49,20 @@ const NavBar = () => {
                 )}
               </Link>
             </li>
-          ))}
+          ))}{" "}
+          <DarkModeToggle />
         </ul>
-
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden z-[60]"
-          onClick={() => setMenuOpen((prev) => !prev)}
-          aria-label="Toggle menu"
-        >
-          {menuOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
+        <div className="flex items-center gap-4 md:hidden z-[60]">
+          <DarkModeToggle />
+          {/* Mobile Menu Button */}
+          <button
+            className=""
+            onClick={() => setMenuOpen((prev) => !prev)}
+            aria-label="Toggle menu"
+          >
+            {menuOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile Overlay Menu */}
@@ -79,7 +83,7 @@ const NavBar = () => {
             >
               {label}
             </Link>
-          ))}
+          ))}{" "}
         </div>
       </div>
     </header>

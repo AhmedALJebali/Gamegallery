@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { FaCube, FaCubes, FaDesktop, FaGamepad, FaLaptop, FaMobileAlt, FaPlaystation, FaRobot, FaUnity, FaVrCardboard } from "react-icons/fa";
-import ServiceCard from "../cards/ServiceCard";
+import ServiceCard from "../cards/serviceCard";
 import { service } from "@/Types/index";
 
 const services: service[] = [

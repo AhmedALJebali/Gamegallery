@@ -1,16 +1,16 @@
-import Hero from "./_components/_sections/Hero";
-import Team from "./_components/_sections/Team";
-import Testimonials from "./_components/_sections/Testimonials";
-import AboutSection from "./_components/_sections/About";
+import AboutSection from "./_components/About";
+import Hero from "./_components/aboutHero";
+import Team from "./_components/teamSection";
+import Testimonials from "./_components/testimonialsSection";
 
 const page = () => {
   return (
-    <div>
+    <main>
       <Hero />
       <Testimonials />
       <AboutSection />
       <Team />
-    </div>
+    </main>
   );
 };
 

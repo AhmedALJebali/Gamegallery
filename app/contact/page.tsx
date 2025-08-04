@@ -1,11 +1,11 @@
-import ContactForm from "./ContactForm";
-import Map from "./Map";
+import ContactForm from "./_components/contactForm";
+import Map from "./_components/mapEmbed";
 const page = () => {
   return (
-    <div>
+    <main>
       <Map />
       <ContactForm />
-    </div>
+    </main>
   );
 };
 

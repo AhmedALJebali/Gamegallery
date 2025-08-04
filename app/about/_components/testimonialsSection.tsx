@@ -2,7 +2,7 @@
 import { Testimonial } from "@/Types/index";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import TestimonialCard from "../_cards/TestimonialCard";
+import TestimonialCard from "./testimonialCard";
 const testimonials: Testimonial[] = [
   {
     title: "Excellent Service",

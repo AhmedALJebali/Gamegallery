@@ -1,5 +1,5 @@
 import { GameCardProps } from "@/Types/index";
-import GameCard from "../cards/GameCard";
+import GameCard from "./gameCard";
 
 const GameSection = () => {
   const contentData: GameCardProps[] = [

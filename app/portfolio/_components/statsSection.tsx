@@ -1,6 +1,6 @@
 "use client";
 
-import BreadCrump from "@/app/components/ui/BreadCrump";
+import BreadCrump from "@/app/components/ui/breadCrump";
 import {
   Award,
   Briefcase,
@@ -40,11 +40,11 @@ const StatsSlider = () => {
         Lorem Ipsum is simply dummy text of the printing and.
       </h2>
       <p className="text-sm sm:text-base text-center text-gray-400 mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
       </p>
 
       <Swiper
-     
         breakpoints={{
           0: { slidesPerView: 2 },
           480: { slidesPerView: 3 },
@@ -57,12 +57,16 @@ const StatsSlider = () => {
               <div className="py-4 h-full">
                 <div
                   className={`p-4 sm:p-6 flex flex-col items-center text-center bg-white/20  h-full transition-all duration-300 ${
-                    isActive || isNext ? "border-r border-amber-500 shadow-md" : ""
-                  }`}
+                    isActive ? "border-r border-amber-500 shadow-md" : ""
+                  } ${isNext ? "sm:border-r border-amber-500 shadow-md" : ""}`}
                 >
                   <item.icon className="w-6 h-6 sm:w-8 sm:h-8 text-orange-500 mb-2 sm:mb-3" />
-                  <p className="text-base sm:text-xl font-bold">{item.number}</p>
-                  <span className="text-xs sm:text-sm text-gray-300">{item.label}</span>
+                  <p className="text-base sm:text-xl font-bold">
+                    {item.number}
+                  </p>
+                  <span className="text-xs sm:text-sm text-gray-300">
+                    {item.label}
+                  </span>
                 </div>
               </div>
             )}

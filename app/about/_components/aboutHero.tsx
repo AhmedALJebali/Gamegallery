@@ -1,5 +1,5 @@
 "use client";
-import BreadCrump from "@/app/components/ui/BreadCrump";
+import BreadCrump from "@/app/components/ui/breadCrump";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { Autoplay, EffectFade } from "swiper/modules";
@@ -21,8 +21,7 @@ const Hero = () => {
     <section className="sm:w-[95%] w-full mx-auto sm:mr-0 text-white flex flex-row items-center gap-6  scale-[0.85] sm:scale-100 transition-all">
       {/* Left Content */}
 
-   
-      <div className="flex flex-col w-[50%] sm:w-[45%] items-start relative z-10 sm:py-20">
+      <div className="flex flex-col w-[55%] sm:w-[45%] items-start relative z-10 sm:py-20">
         <BreadCrump title="About Us" />
         <h1 className="text-md sm:text-4xl lg:text-5xl font-bold leading-snug sm:leading-[3.5rem] mt-6 sm:mt-8">
           Lorem Ipsum is simply dummy text of the printing and.
