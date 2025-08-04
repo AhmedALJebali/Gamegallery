@@ -28,3 +28,10 @@ export interface GameCardProps {
   toleft?: boolean;
   buttonText?: string;
 }
+export interface PostDetails {
+  imageUrl: string;
+  author: string;
+  readTime: string;
+  title: string;
+  content: string;
+}

@@ -44,12 +44,10 @@ const StatsSlider = () => {
       </p>
 
       <Swiper
-        spaceBetween={12}
+     
         breakpoints={{
           0: { slidesPerView: 2 },
           480: { slidesPerView: 3 },
-          768: { slidesPerView: 4 },
-          1024: { slidesPerView: 5 },
         }}
         className="w-full max-w-6xl"
       >
