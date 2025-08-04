@@ -45,7 +45,7 @@ const AutoSizedImageGrid = () => {
   }, []);
 
   return (
-    <section className="w-full  mx-auto md:px-4 flex flex-col items-center">
+    <section className="w-full max-w-7xl mx-auto md:px-4 flex flex-col items-center">
       <div className="w-full max-w-4xl text-center mb-10">
         <h2 className="text-3xl font-semibold text-white">
           Our Recent Projects
