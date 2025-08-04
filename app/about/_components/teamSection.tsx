@@ -1,13 +1,12 @@
 "use client";
 import { TeamMember } from "@/Types/index";
 
-import TeamCard from "./teamCard";
-
 import "swiper/css";
 
 import "swiper/css/effect-coverflow"; // For animation effect
 import { Autoplay, EffectCoverflow } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import TeamCard from "./teamCard";
 const TeamMembers: TeamMember[] = [
   {
     name: "John Doe",
